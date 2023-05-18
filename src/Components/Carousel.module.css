@@ -1,0 +1,129 @@
+
+.slidertext{
+    
+    color: #ffffff;
+}
+.Sliderheader{
+    font-size: 46px;
+    line-height: 48px;
+    letter-spacing: -1.38;
+    font-weight: 500;
+    font-family: suisse,sans-serif;
+    width: 30%;
+    margin-bottom: 30px;
+}
+.sliderP{
+    font-size: 19.39px;
+    line-height: 23.39px;
+    letter-spacing: -0.58;
+    text-align: left;
+    width: 50%;
+}
+.sliderConteiner{
+    color:white;
+    display:flex; 
+    justify-Content:space-between
+}
+
+.sliderArrowPrev{
+    background-Color: transparent;
+    color :purple;
+    border: none;
+    font-Size: 50px;
+    position: absolute;
+    bottom: -30%;
+    left: 200px;
+    transform: translateY(-50%);
+    cursor:pointer;
+}
+
+.sliderArrowNext{
+    background-Color: transparent;
+    color: purple;
+    border: none;
+    font-Size: 50px;
+    position: absolute;
+    bottom: -30%;
+    right: 200px;
+    transform: translateY(-50%);
+    cursor:pointer
+}
+.betweenArrowHeader{
+    color:white;
+    font-Size:46px
+}
+.betweenArrowP{
+    color:white; 
+    font-Size:17px; 
+    line-Height:25px
+}
+
+
+@media (max-width: 768px) {
+    .slider{
+        box-sizing: border-box;
+    }
+    .Sliderheader {
+        font-size: 32px;
+        line-height: 30px;
+      
+        font-weight: 500;
+        font-family: suisse,sans-serif;
+        width: 100%;
+        margin-bottom: 30px;
+        justify-self: flex-start;
+    }
+
+    .sliderP{
+        font-size: 16.39px;
+        line-height: 23.39px;
+        letter-spacing: -0.58;
+        text-align: left;
+        width: 100%;
+        margin-bottom: 30px;
+        
+    }
+    
+    .sliderConteiner{
+        color:white;
+        display:flex; 
+        justify-Content:center;
+        flex-direction:column;
+        box-sizing: border-box;
+    }
+
+    .sliderArrowPrev{
+        background-Color: transparent;
+        color :purple;
+        border: none;
+        font-Size: 50px;
+        position: absolute;
+        bottom: -30%;
+        left: -50px;
+        transform: translateY(-50%);
+        cursor:pointer;
+    }
+
+    .sliderArrowNext{
+    background-Color: transparent;
+    color: purple;
+    border: none;
+    font-Size: 50px;
+    position: absolute;
+    bottom: -30%;
+    right: -50px;
+    transform: translateY(-50%);
+    cursor:pointer
+}
+    .betweenArrowHeader{
+        color:white;
+        font-Size:25px
+    }
+
+    .betweenArrowP{
+        color:white; 
+        font-Size:17px; 
+        line-Height:25px
+    }
+     
+    }

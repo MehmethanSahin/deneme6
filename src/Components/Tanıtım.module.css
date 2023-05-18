@@ -1,0 +1,223 @@
+.header{
+  display: block;
+  box-sizing: border-box;
+  font-family: Suisse, sans-serif;
+  font-size: 37px;
+  letter-spacing: -1.20821px;
+  line-height: 38.9746px;
+  text-align: left;
+  margin-left: 90px;
+  width: 378.458px;
+  font-weight: 100;
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 50%;
+}
+
+/* Make the image responsive */
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+
+.card1Header {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 26px;
+  color: white;
+  font-family: Suisse, Sans-Serif;
+  font-weight: 400;
+  width: 100%;
+}
+
+.card1 {
+  width: 250px;
+  height: 400px;
+  border-radius: 20px;
+}
+
+.card2 {
+  width: 250px;
+  height: 400px;
+  border-radius: 20px;
+  background-color: black;
+}
+.card2Header {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 75px;
+  line-height: 75px;
+  font-family: suisse, sans-serif;
+  color: white;
+  font-family: Suisse, Sans-Serif;
+  font-weight: 400;
+  width: 100%;
+}
+.card2P {
+  position: absolute;
+  top: 80%;
+  padding: 10px;
+  text-align: justify;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  font-family: suisse, sans-serif;
+  color: white;
+  font-family: Suisse, Sans-Serif;
+  font-weight: 400;
+  width: 90%;
+}
+
+
+
+.card3 {
+  width: 600px;
+  height: 400px;
+  border-radius: 20px;
+}
+
+.card3header {
+  position: absolute;
+  top: 13%;
+  left: 30%;
+  text-align: left;
+  transform: translate(-50%, -50%);
+  font-size: 26px;
+  line-height: 30px;
+  color: black;
+  font-family: Suisse, Sans-Serif;
+  font-weight: 400;
+  width: 40%;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    display: block;
+  box-sizing: border-box;
+  font-family: Suisse, sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+  text-align: left;
+  margin-left: 90px;
+  width: 300.458px;
+  font-weight: 100;
+  margin-left: 30px;
+
+  }
+
+  .card1 {
+    width: 45vw;
+    height: 40vh;
+    border-radius: 20px;
+  }
+  .card1Header {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: white;
+    font-family: Suisse, Sans-Serif;
+    font-weight: 400;
+    width: 100%;
+  }
+
+  .maddeP {
+    text-align: justify;
+    width: 100%;
+    margin-bottom: 80px;
+
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+    margin-right: 50px;
+  }
+
+  .card2 {
+    width: 45vw;
+    height: 40vh;
+    border-radius: 20px;
+    background-color: black;
+  }
+
+  .card2Header {
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 55px;
+    line-height: 75px;
+    font-family: suisse, sans-serif;
+    color: white;
+    font-family: Suisse, Sans-Serif;
+    font-weight: 400;
+    width: 100%;
+  }
+
+  .card2P {
+    position: absolute;
+    top: 80%;
+    padding: 9px;
+    text-align: justify;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    font-family: suisse, sans-serif;
+    color: white;
+    font-weight: 400;
+    width: 90%;
+  }
+
+  .card3 {
+    width: 90%;
+    height: auto;
+
+    border-radius: 20px;
+  }
+
+  .card3header {
+    position: absolute;
+    top: 26%;
+    left: 30%;
+    text-align: left;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    line-height: 19px;
+    color: black;
+    font-family: Suisse, Sans-Serif;
+    font-weight: 400;
+    width: 40%;
+  }
+
+
+
+
+}
+
+

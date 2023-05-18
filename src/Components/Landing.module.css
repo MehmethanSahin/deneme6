@@ -1,0 +1,156 @@
+.backgroundImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('https://nuro.imgix.net/nuro_homepage_hero_2021-04-09-184014.jpg?w=2560&fit=max&auto=format&auto=compress');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: -1;
+}
+
+.landingContainer {
+  height: 100vh;
+}
+  
+  
+  .content {
+    position: absolute;
+    top: 160px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: aliceblue;
+  }
+  
+  .dikeyCizgi {
+    border-left: 1px solid black;
+    display: inline-block;
+    margin-top:150px;
+    height: 75px;
+    text-align: center;
+    
+  }
+
+  
+  
+  
+  .slogan {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+ 
+
+  }
+  
+  .slogan h1 {
+    font-family: Suisse,Sans Serif;
+    font-size: 57.9296px;
+    height: 95.0625;
+    letter-spacing: -1.7974;
+    margin: 0;
+    font-weight: bolder;
+    line-height: 54.1152px;
+    text-size-adjust: 100%;
+    display: block;
+    margin-top: 0px;
+    
+  }
+  
+  .mission {
+    text-align: center;
+    margin-left: auto;
+    margin-left: auto;
+    width: 100%;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+
+  }
+  
+  .mission p {
+    font-size:20.72px;
+    display: block;
+    font-weight: 600;
+    letter-spacing: 0.6226px;
+    line-height: 27.2643px;
+    text-size-adjust: 100%;
+    letter-spacing: -0.64px;
+    width: 100%;
+    margin: 0;
+    margin-top: -10px;
+    margin-left: 25px;
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+    
+  }
+
+  
+
+
+  @media (max-width: 768px) {
+    /* Küçük ekranlar için stil özellikleri burada yer alacak */
+
+    .backgroundImage {
+        /* background-image özelliğini silelim */
+        /* tüm ekranı kaplaması için */
+        width: 100vw;
+        height: 100vh;
+        object-fit: contain;
+      }
+      
+      .content {
+        top: 30%; /* sayfanın yarısında hizalayalım */
+        transform: translate(-50%, -50%);
+        width: 100%;
+      }
+      
+      
+      
+      .slogan h1 {
+        font-size: 50px; 
+        height: auto;
+        line-height: 1; 
+        font-weight: bolder;
+        width: 100%;
+      }
+     
+      .mission p {
+        font-size:40px; 
+        line-height: 1.5; 
+        margin: 0 10px; 
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+
+    font-family: Suisse,sans-serif;
+    letter-spacing: -.031em;
+    font-weight: 600;
+    font-size: calc(19.29577px + .18779vw);
+    line-height: 1.307692307692308;
+    
+    text-align: center;
+    
+       
+      }
+
+      .dikeyCizgi {
+        border-left: 1px solid black;
+        display: inline-block;
+        margin-top:100px;
+        height: 75px;
+        text-align: center;
+        
+      }
+     
+      
+  }

@@ -1,0 +1,14 @@
+.faqP{
+    line-Height:30px;
+    font-Weight:400;
+    font-Family:Suisse,Sans-Serif;
+   
+}
+
+@media (max-width: 768px) {
+    .faqP {
+      font-size: 23px;
+      text-align: justify;
+      line-height: 28px;
+      font-Family:Suisse,Sans-Serif;
+    }}
