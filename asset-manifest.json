@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/deneme6/static/css/main.52052562.css",
-    "main.js": "/deneme6/static/js/main.7ec767ed.js",
+    "main.js": "/deneme6/static/js/main.ce96120d.js",
     "static/media/6.gif": "/deneme6/static/media/6.9e29a716ad074f559115.gif",
     "static/media/ss4.png": "/deneme6/static/media/ss4.a16be516f2c115f6da51.png",
     "static/media/ss6.png": "/deneme6/static/media/ss6.7eb464e071fe7ec17bb4.png",
@@ -17,10 +17,10 @@
     "static/media/yonetirLogo.png": "/deneme6/static/media/yonetirLogo.79a964d9701e3d6092f9.png",
     "index.html": "/deneme6/index.html",
     "main.52052562.css.map": "/deneme6/static/css/main.52052562.css.map",
-    "main.7ec767ed.js.map": "/deneme6/static/js/main.7ec767ed.js.map"
+    "main.ce96120d.js.map": "/deneme6/static/js/main.ce96120d.js.map"
   },
   "entrypoints": [
     "static/css/main.52052562.css",
-    "static/js/main.7ec767ed.js"
+    "static/js/main.ce96120d.js"
   ]
 }
