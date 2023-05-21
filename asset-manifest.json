@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/denem6/static/css/main.d4189440.css",
-    "main.js": "/denem6/static/js/main.008441ff.js",
-    "static/media/6.gif": "/denem6/static/media/6.9e29a716ad074f559115.gif",
-    "static/media/ss4.png": "/denem6/static/media/ss4.a16be516f2c115f6da51.png",
-    "static/media/ss6.png": "/denem6/static/media/ss6.7eb464e071fe7ec17bb4.png",
-    "static/media/ss10.png": "/denem6/static/media/ss10.bd9dd5e4f511e7747f14.png",
-    "static/media/ss3.png": "/denem6/static/media/ss3.038de2f6b4be3dbc6107.png",
-    "static/media/ss5.png": "/denem6/static/media/ss5.e18325e5e4113846b1d2.png",
-    "static/media/ss2.png": "/denem6/static/media/ss2.0cda8a0f4077ec92e592.png",
-    "static/media/ss1.png": "/denem6/static/media/ss1.50cf9ec7249d24094016.png",
-    "static/media/ss8.png": "/denem6/static/media/ss8.3b1c8366dbbf0e33a3c5.png",
-    "static/media/ss7.png": "/denem6/static/media/ss7.6ed4d355e4f36559b929.png",
-    "static/media/ss9.png": "/denem6/static/media/ss9.f1847c29c1e5927bcf7c.png",
-    "static/media/ss11.png": "/denem6/static/media/ss11.69397268076f1ab03180.png",
-    "static/media/yonetirLogo.png": "/denem6/static/media/yonetirLogo.79a964d9701e3d6092f9.png",
-    "index.html": "/denem6/index.html",
-    "main.d4189440.css.map": "/denem6/static/css/main.d4189440.css.map",
-    "main.008441ff.js.map": "/denem6/static/js/main.008441ff.js.map"
+    "main.css": "/deneme6/static/css/main.52052562.css",
+    "main.js": "/deneme6/static/js/main.7ec767ed.js",
+    "static/media/6.gif": "/deneme6/static/media/6.9e29a716ad074f559115.gif",
+    "static/media/ss4.png": "/deneme6/static/media/ss4.a16be516f2c115f6da51.png",
+    "static/media/ss6.png": "/deneme6/static/media/ss6.7eb464e071fe7ec17bb4.png",
+    "static/media/ss10.png": "/deneme6/static/media/ss10.bd9dd5e4f511e7747f14.png",
+    "static/media/ss3.png": "/deneme6/static/media/ss3.038de2f6b4be3dbc6107.png",
+    "static/media/ss5.png": "/deneme6/static/media/ss5.e18325e5e4113846b1d2.png",
+    "static/media/ss2.png": "/deneme6/static/media/ss2.0cda8a0f4077ec92e592.png",
+    "static/media/ss1.png": "/deneme6/static/media/ss1.50cf9ec7249d24094016.png",
+    "static/media/ss8.png": "/deneme6/static/media/ss8.3b1c8366dbbf0e33a3c5.png",
+    "static/media/ss7.png": "/deneme6/static/media/ss7.6ed4d355e4f36559b929.png",
+    "static/media/ss9.png": "/deneme6/static/media/ss9.f1847c29c1e5927bcf7c.png",
+    "static/media/ss11.png": "/deneme6/static/media/ss11.69397268076f1ab03180.png",
+    "static/media/yonetirLogo.png": "/deneme6/static/media/yonetirLogo.79a964d9701e3d6092f9.png",
+    "index.html": "/deneme6/index.html",
+    "main.52052562.css.map": "/deneme6/static/css/main.52052562.css.map",
+    "main.7ec767ed.js.map": "/deneme6/static/js/main.7ec767ed.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4189440.css",
-    "static/js/main.008441ff.js"
+    "static/css/main.52052562.css",
+    "static/js/main.7ec767ed.js"
   ]
 }
